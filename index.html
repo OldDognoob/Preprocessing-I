@@ -3,70 +3,119 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
   <title>My Resume</title>
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Turret+Road&display=swap" rel="stylesheet"> 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
-<body>
-  <Header>
-    <h1>Dimos Christidis</h1>
-      <ul class="nav">
-        <li class="navlink"><a href="#">Home</a></li>
-        <li class="navlink"><a href="#">About</a></li>
-        <li class="navlink"><a href="#">Projects</a></li>
-        <li class="navlink"><a href="#">Contact</a></li>
-      </ul>
-  </Header>
-   <div class="container">
-     <div class='me'><img src="me.jpg" alt=""></div>
-     <div class="main-content">
+  <body>
+    <Header>
+      <h1>Dimos Christidis</h1>
+        <ul class="nav">
+          <li class="navlink"><a href="#">Home</a></li>
+          <li class="navlink"><a href="#">About</a></li>
+          <li class="navlink"><a href="#">Projects</a></li>
+          <li class="navlink"><a href="#">Contact</a></li>
+        </ul>
+    </Header>
+    <div class="container">
+      <div class='me'><img src="me.jpg" alt=""></div>
+      <div class="main-content">
         <h1>About Me</h1>
         <br>
-        <p>I am a web designer & front-end developer with 2 years of professional experience.
+         <p>I am a web designer & front-end developer with 2 years of professional experience.
           I am interested in all kinds of visual communication, but my major focus is on design web
           ,mobile & tablet interfaces. I also have skills in other fields like branding, icon design or
           web development.
-        </p>
+          </p>
         <h1>Projects</h1>
-        <p>In this section you will find a full portfolio of my projects, from simple scripts to 
-          full programs and deployed websites.
+         <p>In this section you will find a full portfolio of my projects, from simple scripts to 
+            full programs and deployed websites.
         </p>
         <h2>Career Objectives</h2>
         <p> To succeed in an environment of growth and excellence and earn a job which provides
-          me job Satisfaction and self development and help me achieve<br>
-          personal as well as organizational goals.
+        me job Satisfaction and self development and help me achieve<br>
+        personal as well as organizational goals.
         </p>
-         <h2>
-           <u> Academic Qualifications</u>
-         </h2>
-         <p>I have a bachelor degree in Business administration a Msc. in Project management as also
-           a degree in Web development programming. During my years of study I also applied a Business Studies 
-           degree in Business economics.
-         </p>
-         <h2>
-           <u>Working History</u>
+        <h2>
+          <u> Academic Qualifications</u>
+        </h2>
+        <p>I have a bachelor degree in Business administration a Msc. in Project management as also
+        a degree in Web development programming. During my years of study I also applied a Business Studies 
+        degree in Business economics.
+        </p>
+        <h2>
+          <u>Working History</u>
         <p>During my years of excellence I was director of Shell Oil & Gas company for Northern Greece &
-           the balcans. I have worked Sales project manager for Ricoh , the bigest japanese company in 
-           multifuction printers. My latest working experience was at Rockwell Aerospace as programmer at 
-           the electronic system of most advanced military weapons.
+        the balcans. I have worked Sales project manager for Ricoh , the bigest japanese company in 
+        multifuction printers. My latest working experience was at Rockwell Aerospace as programmer at 
+        the electronic system of most advanced military weapons.
         </p>
-         </h2>
+          <h3>Contact Me</h3>
+          <p>Email: christidis.dimosthenis@gmail.com</p>
+          <p>Phone Number: +(30)123456</p>
+          <adress>
+          Chrysoxchoy 8 street, 
+          Larisa PC41221 Greece
+          </adress>
+          <div class="social-media">
+            <img src="images/instagram.png">
+            <img src="images/facebook.png">
+            <img src="images/twitter.png">
+          </div>
+          <form>
+           <table width="450px">
+           </tr>
+           <tr>
+             <td>
+               <label for="first_name">First Name</label>
+             </td>
+             <td>
+              <input type="text"name="first_name"maxlength="50"size="30"> 
+             </td>
+            </tr>
+            <tr>
+            <td>
+              <label for="last_name">Last Name</label>
+            </td>
+            <td>
+              <input type="text"name="last_name"maxlength="50"size="30">
+            </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email Address</label>
+              </td>
+              <td>
+                <input type="text"name="email"maxlength="80"size="30">
+              </td>
+              </tr>
 
-         
+              <tr>
+                <td>
+                  <label for="telephone">Telephone Number</label>
+                </td>
+                <td>
+                  <input type="text" name="telephone" maxlength="30" size="30">
+                </td>
+              </tr>
 
-        
-
-     </div>
-     
-    
-
-     </div>
-     
-
-   </div>
-</body>
+              <tr>
+                <td>
+                  <label for="Comments">Comments</label>
+                </td>
+                <td>
+                  <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                </td>
+              </tr>
+           </table>
+              </form>   
+          </div>
+        </div>   
+      </div>
+  </body>
 </html>
